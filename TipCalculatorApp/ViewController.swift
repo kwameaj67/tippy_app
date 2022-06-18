@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         calculateButton.layer.cornerRadius = calculateButton.layer.frame.height / 2 
-        title = "WeSplit"
+        title = "Tippy App"
         handler(message: "Hi, Kwame") { (result) in
             print("RESULT:\(result)")
         }
